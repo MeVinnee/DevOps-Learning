@@ -5,4 +5,22 @@
 -pwd #present working directory
 -mkdir #make directory
 -ls -l #detail will provide in the output
-
+-rmdir  #deleing an empty directory
+-rm     #remove the file
+-rm -r  #delete the folder
+-cp     #copy the file
+-mv     #move the file and rename the file
+-touch  #create new file
+-clear  #clear the terminal
+-cd ..  #moves one level up in the directory
+-cat    #display the entire content
+-echo   #to print text on the terminal or print into the file
+-head   #display beninning of the file
+-tail   #display last 10 line of the file
+-tail -f #monitor the file and show the new added last 10 lines of the file
+          ex-generaly used for logs
+-less    #one page at a time if there is huge data
+-more    #Same like less but one screen at a time
+-wc      #show the line and words count
+-hardlink #
+-softlink #
