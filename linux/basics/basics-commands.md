@@ -52,12 +52,19 @@ Below is a list of basic Linux commands that are fundamental for anyone starting
 - `apt install <package>` – Install a package
 - `apt remove <package>` – Remove a package
 
+
+## User and Group Management
+- `sudo` – Execute a command as another user (usually root)
+- `useradd` – Create a new user
+- `passwd` – Change user password
+- `userdel` – Delete a user account
+- `groupadd` – Create a new group
+- `gpasswd -a` – Add a user to a group
+- `gpasswd -m` – Set group members
+- `groupdel` – Delete a group
+
 ## Other Useful Commands
-- `man` – Display manual pages for commands
-- `history` – Show command history
-- `clear` – Clear the terminal screen
-- `echo` – Display a line of text
-- `exit` – Exit the shell
+// ...existing code...
 
 ---
 Add notes and examples as you learn each command!
