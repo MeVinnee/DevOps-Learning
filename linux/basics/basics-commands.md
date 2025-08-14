@@ -67,4 +67,20 @@ Below is a list of basic Linux commands that are fundamental for anyone starting
 // ...existing code...
 
 ---
-Add notes and examples as you learn each command!
+
+---
+
+## File Permission Table (User/Group/Other)
+
+| Number | Read (R) | Write (W) | Execute (X) |
+|--------|----------|-----------|-------------|
+|   0    |    -     |     -     |     -       |
+|   1    |    -     |     -     |     X       |
+|   2    |    -     |     W     |     -       |
+|   3    |    -     |     W     |     X       |
+|   4    |    R     |     -     |     -       |
+|   5    |    R     |     -     |     X       |
+|   6    |    R     |     W     |     -       |
+|   7    |    R     |     W     |     X       |
+
+> Use this table to quickly determine the numeric value for chmod permissions.
